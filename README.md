@@ -1,20 +1,21 @@
 # 📊 Streamlit Stats Lab
 
-Welcome to my interactive playground for learning and applying statistics using [Streamlit](https://streamlit.io/), data visualization, and core Python tools like `pandas`, `numpy`, and `matplotlib`.
+Este projeto tem como objetivo desenvolver um site para promover intuição e conhecimento estatístico, por meio de interações visuais, usando [Streamlit](https://streamlit.io/), data visualization, e pacotes em python como `pandas`, `numpy`, e `matplotlib`.
 
-This repository documents my journey through:
-- Building interactive apps with Streamlit
-- Exploring statistical concepts and data analysis
-- Developing visualizations and dashboards
-- Practicing code organization for future projects
+Esse repositório irá documentar minha jornada enquanto:
+- Construo apps interativos usando Streamlit
+- Exploro conceitos estatísticos e de análise de dados
+- Aprendo sobre linguagem Git, Github e versionamento de código na prática
+- Desenvolvo dashboards e visualizações de dados
+- Pratico organização de código para projetos futuros
 
 ---
 
-## 🚀 Goals
+## 🚀 Objetivos
 
-- ✅ Reinforce statistical thinking through hands-on projects
-- ✅ Practice Python libraries for data analysis and visualization
-- ✅ Build small, modular Streamlit apps as a future portfolio base
-- ✅ Create reusable code patterns for future dashboards
+- ✅ Reforçar pensamento estatístico por meio de projetos práticos
+- ✅ Aplicar e estudar bibliotecas de Python para análise e visualização de dados
+- ✅ Construir pequenos aplicativos no streamlit, como base para portfolio futuro
+- ✅ Contribuir com a comunidade com conceitos e pensamento estatístico desenvolvido na graduação
 
 ---
