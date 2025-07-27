@@ -6,21 +6,34 @@ st.title("Teste Exato de Fisher")
 
 # Seção Inicial (Conceito)
 ## O que é? Quando surgiu?
-st.write("O Teste Exato de Fisher - ou apenas Teste de Fisher - é um  "
-"**Teste de Hipótese**, que é usado para avaliar a associação entre duas (ou mais) variáveis categóricas.")
-
-st.write("Ou seja, ele nos permite ver se, diante de duas situações ou tratamentos, há alguma interferência nos dois resultados possíveis.")
-st.write("Imagine a seguinte situação:" 
-         " Uma empresa de bolos deseja ver se ao colocar a palavra \'caseiro\' na embalagem de seus bolos, ocorre algum impacto positivo no seu número de vendas."
-         " Para isso, o estatístico contratado resolveu avaliar da seguinte forma:"
-         " Para as 100 pessoas que forem expostas às embalagens A e B, devemos avaliar se o bolo foi ou não comprado"
-         " A embalagem A é a padrão que já está em circulação e já está inserida no mercado, enquanto a embalagem B é idêntica à embalagem A, sua única diferença é a menção à receita caseira." \
+st.write(
+    "O Teste Exato de Fisher, também conhecido como Teste de Fisher, é um teste de hipótese "
+    "utilizado para avaliar a associação entre duas (ou mais) variáveis categóricas. "
+    "Ele nos ajuda a verificar se dois tratamentos diferentes produzem efeitos distintos em uma variável de interesse."
 )
+with st.expander("Para entender melhor, considere o seguinte cenário:"):
+    st.write(
+        "Uma empresa de bolos deseja investigar se adicionar a palavra 'caseiro' à embalagem "
+        "tem algum impacto nas vendas do produto. Para isso, foi elaborado um experimento com 100 consumidores, "
+        "que serão divididos entre dois tipos de embalagem."
+    )
 
-st.write("Para a empresa, é importante saber se existe um impacto positivo ou não em suas vendas, porque se não houver diferença na embalagem, terá sido um investimento perdido, ou no pior dos casos, poderá perder clientes e sofrer uma queda no número de vendas.")
+    st.write(
+        "- Embalagem A: versão atual, já disponível no mercado.")
+    st.write(
+        "- Embalagem B: idêntica à A, mas com a palavra 'caseiro' destacada."
+    )
 
+    st.write(
+        "Cada consumidor será exposto a uma dessas versões, e o resultado observado será se o bolo foi ou não comprado. "
+        "Dessa forma, teremos dois tratamentos (embalagem A e B) e dois desfechos possíveis (comprou ou não comprou)."
+    )
 
-
+    st.write(
+        "A empresa quer entender se vale a pena investir em uma nova embalagem. "
+        "Se a palavra 'caseiro' não influenciar nas vendas, esse investimento pode ser em vão. "
+        "Pior ainda, se houver uma reação negativa à nova embalagem, pode haver uma queda nas vendas."
+    )
 
 ### É possível um hyperlink para um outro streamlit de Teste de Hipótese? 'Saiba mais'
 ## Utilidade?
