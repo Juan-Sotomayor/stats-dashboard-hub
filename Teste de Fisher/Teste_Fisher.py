@@ -6,6 +6,7 @@ st.title("Teste Exato de Fisher")
 
 # Seção Inicial (Conceito)
 ## O que é? Quando surgiu?
+
 st.write(
     "O Teste Exato de Fisher, também conhecido como Teste de Fisher, é um teste de hipótese "
     "utilizado para avaliar a associação entre duas (ou mais) variáveis categóricas. "
@@ -35,6 +36,7 @@ with st.expander("Para entender melhor, considere o seguinte cenário:"):
         "Pior ainda, se houver uma reação negativa à nova embalagem, pode haver uma queda nas vendas."
     )
 
+
 ### É possível um hyperlink para um outro streamlit de Teste de Hipótese? 'Saiba mais'
 ## Utilidade?
 
@@ -56,3 +58,8 @@ with st.expander("Para entender melhor, considere o seguinte cenário:"):
 
 ## Exemplo 2
 # Bibliografia
+
+st.title("Bibliografia:")
+st.write("1. WARDROP, R. L. Statistics: Learning in the Presence of Variation. Dubuque, IA: William C. Brown, 1995. ISBN 978-0697215932.")
+st.write("2. PENNSYLVANIA STATE UNIVERSITY. Lesson 4.5 – Statistics: Learning in the Presence of Variation. Disponível em: <https://online.stat.psu.edu/stat504/lesson/4/4.5>. Acesso em: 25 jul. 2025.")
+st.write("3. UNIVERSIDADE ESTADUAL DE CAMPINAS. Notas de aula – ME110 Noções de Estatística.")
